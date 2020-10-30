@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with chrome"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="26,920">
+  <properties />
+  
+  
+            <testcase name="TC07_Check_Validate_Address_Is_Char" time="0,943" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_04" />
+                <testcase name="TC08_Check_Validate_Address_Is_Valid_And_Only" time="2,705" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_04" />
+                <testcase name="TC04_Check_Validate_Address_Is_Negative" time="1,376" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_04" />
+                <testcase name="TC01_Check_Validate_Address_Is_Null" time="4,916" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_04" />
+                <testcase name="TC10_Check_Validate_Address_Is_Invalid" time="3,828" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_04" />
+                <testcase name="TC06_Check_Validate_Address_Is_Script" time="2,072" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_04" />
+                <testcase name="TC03_Check_Validate_Address_Is_Decimal" time="1,048" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_04" />
+                <testcase name="TC05_Check_Validate_Address_Is_Special_Char" time="2,018" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_04" />
+                <testcase name="TC09_Check_Validate_Address_Has_Many_Location" time="6,877" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_04" />
+                <testcase name="TC02_Check_Validate_Address_Is_Number" time="1,137" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_04" />
+      
+</testsuite>

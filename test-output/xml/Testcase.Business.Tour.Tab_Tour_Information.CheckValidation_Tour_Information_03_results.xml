@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with chrome"
+           tests="15"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20,746">
+  <properties />
+  
+  
+            <testcase name="TC02_Check_Validate_Closing_Day_Is_Number" time="0,295" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC06_Check_Validate_Closing_Day_Is_Char" time="0,313" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC05_Check_Validate_Closing_Day_Is_Script" time="0,391" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC04_Check_Validate_Closing_Day_Is_Special_Char" time="0,366" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC13_Check_Checkbox_When_Checked_Uncheck_Checked_On_Checkbox_International_Tour" time="3,010" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC14_Check_Checkbox_When_Checked_Uncheck_Checked_On_Checkbox_Can_Merge_Tour" time="2,465" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC08_Check_Validate_Closing_Day_Is_Equal_Max" time="0,397" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC07_Check_Validate_Closing_Day_Is_More_Max" time="0,352" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC15_Check_Checkbox_When_Checked_Uncheck_Checked_On_Checkbox_International_Tour" time="3,685" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC01_Check_Validate_Closing_Day_Is_Null" time="0,485" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC12_Check_Checkbox_Can_Merge_Tour_When_Checked" time="3,301" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC09_Check_Validate_Closing_Day_Is_Valid" time="0,387" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC11_Check_Checkbox_Internal_Tour_When_Checked" time="1,921" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC03_Check_Validate_Closing_Day_Is_Negative" time="0,313" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+                <testcase name="TC16_Check_Checkbox_When_Checked_Uncheck_Checked_On_Checkbox_Can_Merge_Tour" time="3,065" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_03" />
+      
+</testsuite>

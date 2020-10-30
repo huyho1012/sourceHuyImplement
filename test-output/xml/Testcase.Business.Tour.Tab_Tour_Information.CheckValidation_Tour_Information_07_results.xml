@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with fire fox"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3,804">
+  <properties />
+  
+  
+            <testcase name="TC02_Check_Validate_Policy_Is_Number" time="3,804" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_07" />
+      
+</testsuite>

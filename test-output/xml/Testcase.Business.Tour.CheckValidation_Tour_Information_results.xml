@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with firefox"
+           tests="20"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9,964">
+  <properties />
+  
+  
+            <testcase name="TC03_Check_Validate_Separate_Regulations_Is_Decimal" time="0,330" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC16_Check_Validate_Policy_Is_Char" time="0,470" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC10_Check_Validate_Separate_Regulations_Has_End_Space" time="0,456" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC01_Check_Validate_Separate_Regulations_Is_Null" time="1,303" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC12_Check_Validate_Policy_Is_Number" time="0,413" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC11_Check_Validate_Policy_Is_Null" time="0,384" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC02_Check_Validate_Separate_Regulations_Is_Number" time="0,375" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC06_Check_Validate_Separate_Regulations_Is_Char" time="0,371" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC13_Check_Validate_Policy_Is_Decimal" time="0,379" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC15_Check_Validate_Policy_Is_Script" time="0,502" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC18_Check_Validate_Policy_Is_Valid" time="0,845" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC04_Check_Validate_Separate_Regulations_Is_Special_Char" time="0,367" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC07_Check_Validate_Separate_Regulations_Less_Min" time="0,427" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC05_Check_Validate_Separate_Regulations_Is_Script" time="0,377" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC08_Check_Validate_Separate_Regulations_Is_Valid" time="0,642" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC14_Check_Validate_Policy_Is_Special_Char" time="0,387" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC20_Check_Validate_Policy_Has_End_Space" time="0,438" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC17_Check_Validate_Separate_Regulations_Less_Min" time="0,472" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC19_Check_Validate_Policy_Has_Start_Space" time="0,543" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+                <testcase name="TC09_Check_Validate_Separate_Regulations_Has_Start_Space" time="0,483" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01" />
+      
+</testsuite>

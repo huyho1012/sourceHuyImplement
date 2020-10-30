@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with chrome"
+           tests="22"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="11,801">
+  <properties />
+            <testcase name="TC01_Check_Short_Des_Is_Null" time="0,389" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06">
+                <failure type="java.lang.AssertionError"
+                  message="expected [Mô tả ngắn là bắt buộc.] but found [Giới hạn tối thiểu của Mô tả ngắn là 3 kí tự]"
+              >
+<![CDATA[java.lang.AssertionError: expected [Mô tả ngắn là bắt buộc.] but found [Giới hạn tối thiểu của Mô tả ngắn là 3 kí tự]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:513)
+  org.testng.Assert.assertEqualsImpl(Assert.java:135)
+  org.testng.Assert.assertEquals(Assert.java:116)
+  org.testng.Assert.assertEquals(Assert.java:179)
+  Common.HelperFunction.AbstractTest.checkEquals(AbstractTest.java:170)
+  Common.HelperFunction.AbstractTest.verifyEquals(AbstractTest.java:182)
+  Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06.TC01_Check_Short_Des_Is_Null(CheckValidation_Tour_Information_06.java:114)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="TC02_Check_Short_Des_Is_Number" time="0,372" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC15_Check_Validate_Separate_Regulations_Is_Decimal" time="0,402" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC06_Check_Short_Des_Is_Script" time="0,460" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC07_Check_Short_Des_Is_Char" time="0,394" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC09_Check_Short_Des_Is_More_Max" time="0,866" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC17_Check_Validate_Separate_Regulations_Is_Script" time="0,541" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC14_Check_Validate_Separate_Regulations_Is_Number" time="0,440" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC21_Check_Validate_Separate_Regulations_Has_Start_Space" time="0,552" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC08_Check_Short_Des_Is_Less_Min" time="0,476" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC16_Check_Validate_Separate_Regulations_Is_Special_Char" time="0,407" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC11_Check_Short_Des_Has_Start_Space" time="0,493" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC18_Check_Validate_Separate_Regulations_Is_Char" time="0,474" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC20_Check_Validate_Separate_Regulations_Is_Valid" time="0,991" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC22_Check_Validate_Separate_Regulations_Has_End_Space" time="0,484" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC013_Check_Validate_Separate_Regulations_Is_Null" time="1,419" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC19_Check_Validate_Separate_Regulations_Less_Min" time="0,474" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC12_Check_Short_Des_Has_End_Space" time="0,505" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC05_Check_Short_Des_Is_Special_Char" time="0,398" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC03_Check_Short_Des_Is_Decimal" time="0,359" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC04_Check_Short_Des_Is_Negative" time="0,396" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+                <testcase name="TC10_Check_Short_Des_Is_Valid" time="0,509" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_06" />
+      
+</testsuite>

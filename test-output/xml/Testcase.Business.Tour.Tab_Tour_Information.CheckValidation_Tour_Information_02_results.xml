@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with chrome"
+           tests="19"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="47,082">
+  <properties />
+  
+  
+            <testcase name="TC13_Check_Validate_Basic_Price_Is_Decimal" time="5,012" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC02_Check_Validate_TotalDay_Is_Number" time="0,376" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC03_Check_Validate_TotalDay_Is_Negative" time="0,297" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC11_Check_Validate_Basic_Price_Is_Null" time="3,665" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC16_Check_Validate_Basic_Price_Is_Script" time="4,235" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC18_Check_Validate_Basic_Price_Is_Valid" time="4,757" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC05_Check_Validate_TotalDay_Is_Script" time="0,399" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC07_Check_Validate_TotalDay_Is_Valid" time="0,378" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC20_Check_Validate_Basic_Price_Is_Equal_Max" time="2,652" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC06_Check_Validate_TotalDay_Is_Char" time="0,354" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC08_Check_Validate_TotalDay_Is_Valid" time="0,447" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC04_Check_Validate_TotalDay_Is_Special_Char" time="0,407" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC09_Check_Validate_TotalDay_Is_Valid" time="0,518" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC17_Check_Validate_Basic_Price_Is_Char" time="5,884" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC19_Check_Validate_Basic_Price_Is_More_Max" time="2,993" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC15_Check_Validate_Basic_Price_Is_Special_Char" time="3,072" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC01_Check_Validate_TotalDay_Is_Null" time="1,406" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC12_Check_Validate_Basic_Price_Is_Number" time="5,243" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+                <testcase name="TC14_Check_Validate_Basic_Price_Is_Negative" time="4,987" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_02" />
+      
+</testsuite>

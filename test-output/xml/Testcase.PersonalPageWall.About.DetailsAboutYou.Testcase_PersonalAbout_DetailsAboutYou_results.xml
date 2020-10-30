@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with firefox"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.265">
+  <properties />
+  
+  
+            <testcase name="TC01_Check_UI_Component_Item_On_Introduce_Section" time="0.248" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_PersonalAbout_DetailsAboutYou" />
+                <testcase name="TC02_Check_User_Interactor_Component_Item_On_Introduce_Section" time="10.778" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_PersonalAbout_DetailsAboutYou" />
+                <testcase name="TC04_Update_Introduce_With_Value_Contains_All_Whitespaces" time="3.256" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_PersonalAbout_DetailsAboutYou" />
+                <testcase name="TC03_Update_Introduce_With_Value_Is_Blank" time="2.195" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_PersonalAbout_DetailsAboutYou" />
+                <testcase name="TC05_Update_Introduce_With_Value_Is_Paragarph" time="4.788" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_PersonalAbout_DetailsAboutYou" />
+      
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with firefox"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13,152">
+  <properties />
+  
+  
+            <testcase name="TC21_Check_Cover_Format_Is_GIF" time="7,113" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_08" />
+                <testcase name="TC22_Check_Cover_Format_Is_HEIC" time="6,039" classname="Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_08" />
+      
+</testsuite>

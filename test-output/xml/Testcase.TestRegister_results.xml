@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with firefox"
+           tests="13"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="288.226">
+  <properties />
+            <testcase name="TC20_Create_Scheduler_Of_Tour" time="0.135" classname="testcase.SignUp.TestRegister">
+                <failure type="java.lang.NumberFormatException"
+                  message="For input string: &quot;/2&quot;"
+              >
+                  <![CDATA[java.lang.NumberFormatException: For input string: "/2"
+  java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+  java.base/java.lang.Integer.parseInt(Integer.java:638)
+  java.base/java.lang.Integer.parseInt(Integer.java:770)
+  Common.HelperFunction.AbstractTest.nextDate(AbstractTest.java:120)
+  testcase.SignUp.TestRegister.TC20_Create_Scheduler_Of_Tour(TestRegister.java:698)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+  org.testng.TestNG.run(TestNG.java:1057)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+                </failure>
+
+          </testcase>
+            <testcase name="TC19_Create_Price_Of_Tour" time="0.306" classname="testcase.SignUp.TestRegister">
+                <failure type="java.lang.NumberFormatException"
+                  message="For input string: &quot;/2&quot;"
+              >
+                  <![CDATA[java.lang.NumberFormatException: For input string: "/2"
+  java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+  java.base/java.lang.Integer.parseInt(Integer.java:638)
+  java.base/java.lang.Integer.parseInt(Integer.java:770)
+  Common.HelperFunction.AbstractTest.nextDate(AbstractTest.java:120)
+  testcase.SignUp.TestRegister.TC19_Create_Price_Of_Tour(TestRegister.java:676)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+  org.testng.TestNG.run(TestNG.java:1057)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+                </failure>
+
+          </testcase>
+  
+  
+            <testcase name="TC10_CreateNewPage" time="12.355" classname="testcase.SignUp.TestRegister" />
+                <testcase name="TC17_Update_Tour_Information" time="150.378" classname="testcase.SignUp.TestRegister" />
+                <testcase name="TC05_Login_To_Newsfeed" time="3.902" classname="testcase.SignUp.TestRegister" />
+                <testcase name="TC15_Create_New_Topic" time="52.077" classname="testcase.SignUp.TestRegister" />
+                <testcase name="TC11_Update_Prepayment_Cancellation_On_Tour_General_Information" time="4.889" classname="testcase.SignUp.TestRegister" />
+                <testcase name="TC14_Update_Noti_Order_Setting_On_Tour_General_Information" time="1.404" classname="testcase.SignUp.TestRegister" />
+                <testcase name="TC16_Create_New_Promotion_Apply" time="0.000" classname="testcase.SignUp.TestRegister" />
+                <testcase name="TC16_Create_New_Tour" time="4.951" classname="testcase.SignUp.TestRegister" />
+                <testcase name="TC18_Create_Part_Of_Tour" time="57.179" classname="testcase.SignUp.TestRegister" />
+                <testcase name="TC13_Update_Age_Setting_On_Tour_General_Information" time="0.411" classname="testcase.SignUp.TestRegister" />
+                <testcase name="TC12_Update_VAT_On_Tour_General_Information" time="0.239" classname="testcase.SignUp.TestRegister" />
+      
+</testsuite>

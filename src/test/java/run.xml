@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Test Suite" parallel = "false" thread="4">
+    <listeners>
+        <listener class-name="Common.LogAndReport.MethodListener"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="Common.LogAndReport.ExtentReportListener"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+<!--    <test verbose="2" preserve-order="true" name="Test with chrome">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <parameter name="datalogin" value=".\JsonData\LoginUser.json"/>-->
+<!--        <classes>-->
+<!--            <class name = "Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_07"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test verbose="2" preserve-order="true" name="Test with firefox">
+        <parameter name="browser" value="chrome" />
+        <parameter name="datalogin" value=".\JsonData\LoginUser.json"/>
+        <classes>
+            <class name = "Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_08"></class>
+        </classes>
+    </test>
+
+<!--    <test verbose="2" preserve-order="true" name="Test with coc coc">-->
+<!--        <parameter name="browser" value="coc coc" />-->
+<!--        <parameter name="datalogin" value=".\JsonData\LoginUser.json"/>-->
+<!--        <classes>-->
+<!--            <class name = "Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_07"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test verbose="2" preserve-order="true" name="Test with edge">-->
+<!--        <parameter name="browser" value="edge" />-->
+<!--        <parameter name="datalogin" value=".\JsonData\LoginUser.json"/>-->
+<!--        <classes>-->
+<!--            <class name = "Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_07"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test verbose="2" preserve-order="true" name = "Test with firefox">-->
+<!--        <parameter name="browser" value="firefox"></parameter>-->
+<!--        <classes>-->
+<!--&lt;!&ndash;            <class name = "Testcase.Newsfeed.AccountSetting.Testcase_Component_Update_FULLNAME"></class>&ndash;&gt;-->
+<!--            <class name = "Testcase.Business.Tour.Tab_Tour_Information.CheckValidation_Tour_Information_01"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

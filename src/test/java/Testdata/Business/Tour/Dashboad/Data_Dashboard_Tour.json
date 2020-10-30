@@ -1,0 +1,16 @@
+{
+  "nameTour_Null" : "",
+  "nameTour_Valid" : "Tour Sapa",
+  "nameTour_4_char" : "abcd",
+  "nameTour_5_char" : "abcde",
+  "nameTour_255_char" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,",
+  "nameTour_256_char" : "LLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,",
+  "nameTour_5_space" : "     ",
+  "nameTour_Start_Space" : " abcd",
+  "nameTour_End_Space" : "abcd ",
+
+  "alert_NameTour_Is_Required" : "Tên Tour là bắt buộc.",
+  "alert_NameTour_Min" : "Giới hạn tối thiểu của Tên Tour là 5 kí tự",
+  "alert_NameTour_Max" : "Giới hạn tối đa của Tên Tour là 255 kí tự",
+  "alert_Topic_Is_Required" : "Chủ đề Tour là bắt buộc."
+}

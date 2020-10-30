@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with firefox"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.055">
+  <properties />
+  
+  
+            <testcase name="TC05_Update_FavoriteQuote_With_Data_Is_One_Sentence" time="0.746" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_ComponentTest_FavoriteQuotes" />
+                <testcase name="TC06_Update_FavoriteQuote_With_Data_Is_Only_Number" time="0.706" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_ComponentTest_FavoriteQuotes" />
+                <testcase name="TC02_Update_Favorite_Quote_With_Data_Contains_All_Whitespace" time="1.444" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_ComponentTest_FavoriteQuotes" />
+                <testcase name="TC09_Update_FavoriteQuote_With_Data_Is_Contains_Script_Code" time="0.716" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_ComponentTest_FavoriteQuotes" />
+                <testcase name="TC03_Update_FavoriteQuote_With_Data_Is_One_Paragarph" time="0.875" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_ComponentTest_FavoriteQuotes" />
+                <testcase name="TC01_Update_Favorite_Quote_With_Blank_Data" time="0.203" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_ComponentTest_FavoriteQuotes" />
+                <testcase name="TC08_Update_FavoriteQuote_With_Data_Is_Contains_HTML_Code" time="0.714" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_ComponentTest_FavoriteQuotes" />
+                <testcase name="TC7_Update_FavoriteQuote_With_Data_Is_Contains_Special_Characters" time="0.701" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_ComponentTest_FavoriteQuotes" />
+                <testcase name="TC04_Update_FavoriteQuote_With_Data_Are_More_Than_2_Paragarphs" time="0.950" classname="testcase.Newsfeed.About.DetailsAboutYou.Testcase_ComponentTest_FavoriteQuotes" />
+      
+</testsuite>

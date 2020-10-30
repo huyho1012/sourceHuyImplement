@@ -1,0 +1,125 @@
+{
+  "value_Is_Null" : "",
+  "value_Is_Number" : "12345678",
+  "value_Is_Decimal" : "11.5",
+  "value_Is_Negative" : "-11",
+  "value_Is_Valid" : "2",
+  "value_Is_Special_Char" : "!@#$%",
+  "value_Is_Script" : "<script>alert('Hello! I am an alert box!');</script>",
+  "value_Is_Char" : "Luffy",
+
+  "nameTour_Is_Valid" : "Tour Sapa",
+  "nameTour_4_char" : "abcd",
+  "nameTour_5_char" : "abcde",
+  "nameTour_255_char" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,",
+  "nameTour_256_char" : "LLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,",
+  "nameTour_5_space" : "     ",
+  "nameTour_Start_Space" : " abcd",
+  "nameTour_End_Space" : "abcd ",
+
+  "SKU_2_Char" : "sk",
+  "SKU_3_Char" : "sku",
+  "SKU_Is_Valid" : "SKU001",
+  "SKU_255_Char" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,",
+  "SKU_256_Char" : "LLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,",
+  "SKU_5_Space" : "     ",
+  "SKU_Start_Space" : " sk",
+  "SKU_End_Space" : "sk ",
+
+  "totalDay_Is_Valid" : "5",
+  "totalDay_Equal_Max" : "999999999",
+  "totalDay_More_Max" : "1000000000",
+
+  "priceBasic_Is_Valid" : "125556",
+  "priceBasic_More_Max" : "99999999997777777755555",
+  "priceBasic_Equal_Max" : "999999999999",
+
+  "closingDays_More_Max" : "1000000",
+  "closingDays_Equal_Max" : "999999",
+  "closingDays_Is_Valid" : "2",
+
+  "address_Is_Valid_And_Only" : "Lăng Chủ tịch Hồ Chí Minh, Hùng Vương, Điện Biên, Ba Đình, Hà Nội",
+  "address_Has_Many_Location" : "KFC",
+  "address_Is_Invalid" : "^&*^*&(^&*^&*(^&*^&*(^&*(^&*^*&^&*(^*&^&*(^",
+
+  "country_Is_Invalid" : "OnePiece",
+  "country_Is_Valid_1" : "Vietnam",
+  "country_Is_Valid_2" : "Japan",
+
+  "city_Is_Invalid" : "OnePiece",
+  "city_Is_Valid_1" : "Vietnam",
+  "city_Is_Valid_2" : "Gifu",
+
+  "county_Is_Invalid" : "OnePiece",
+  "county_Is_Valid_1" : "Quận 1",
+  "county_Is_Valid_2" : "Quận 3",
+
+  "shortDes_Less_Min" : "ab",
+  "shortDes_More_Max" : "Ab Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a",
+  "shortDes_Is_Valid" : "Lorem ipsum dolor sit amet, consectertuer adpiiscing elit.",
+  "shortDes_Start_Space" : " ad",
+  "shortDes_End_Space" : "ab ",
+
+  "priRegulations_Less_Min" : "ab",
+  "priRegulations_Is_Valid" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "priRegulations_Start_Space" : " ad",
+  "priRegulations_End_Space" : "ab ",
+
+  "policy_Less_Min" : "ab",
+  "policy_Is_Valid" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "policy_Start_Space" : " ab",
+  "policy_End_Space" : "ab ",
+
+  "policy_Installment_Is_Valid" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+  "image_Format_PNG" : "FormatFile\\a.png",
+  "image_Format_JPG" : "FormatFile\\a.jpg",
+  "image_Format_JPEG" : "FormatFile\\a.jpeg",
+  "image_Format_WEBP" : "FormatFile\\a.webp",
+  "image_Format_BMP" : "FormatFile\\a.bmp",
+  "image_Format_ICO" : "FormatFile\\a.ico",
+  "image_Format_TIF" : "FormatFile\\a.tif",
+  "image_Format_TIFF" : "FormatFile\\a.tiff",
+  "image_Format_GIF" : "FormatFile\\a.gif",
+  "image_Format_HEIC" : "FormatFile\\a.heic",
+
+  "alert_NameTour_Is_Required" : "Tên Tour là bắt buộc.",
+  "alert_NameTour_Less_Min" : "Giới hạn tối thiểu của Tên Tour là 5 kí tự",
+  "alert_NameTour_More_Max" : "Giới hạn tối đa của Tên Tour là 255 kí tự",
+
+  "alert_SKU_Is_Required" : "Mã lưu kho là bắt buộc",
+  "alert_SKU_Less_Min" : "Giới hạn tối thiểu của Mã lưu kho là 3 kí tự",
+  "alert_SKU_More_Max" : "Giới hạn tối đa của Mã lưu kho là 255 kí tự",
+
+  "alert_TotalDay_Is_Required" : "Số ngày đi Tour là bắt buộc.",
+  "alert_TotalDay_More_Max" : "Số ngày đi Tour phải bé hơn hoặc bằng 999999999",
+
+  "alert_BasicPrice_Is_Required" : "Giá cơ bản là bắt buộc.",
+  "alert_BasicPrice_More_Max" : "Giá cơ bản phải bé hơn hoặc bằng 999.999.999.999 ₫",
+
+  "alert_ClosingDay_Is_Required" : "Hạn chót đặt tour là bắt buộc.",
+  "alert_ClosingDay_More_Max" : "Hạn chót đặt tour phải bé hơn hoặc bằng 999999",
+
+  "alert_Address_Is_Required" : "Địa chỉ là bắt buộc.",
+  "alert_Country_Is_Required" : "Quốc gia là bắt buộc.",
+  "alert_City_Is_Required" : "Bang/ Thành phố là bắt buộc.",
+
+  "alert_ShortDes_Is_Required" : "Mô tả ngắn là bắt buộc.",
+  "alert_ShortDes_Less_Min" : "Giới hạn tối thiểu của Mô tả ngắn là 3 kí tự",
+
+  "alert_PriRegulations_Is_Required" : "Quy định riêng là bắt buộc.",
+  "alert_PriRegulations_Less_Min" : "Giới hạn tối thiểu của Quy định riêng là 3 kí tự",
+
+  "alert_Policy_Is_Required" : "Chính sách là bắt buộc.",
+  "alert_Policy_Less_Min" : "Giới hạn tối thiểu của Chính sách là 3 kí tự",
+
+  "alert_Logo_Is_Required" : "Vui lòng chọn ảnh Tour",
+  "alert_Cover_Is_Required" : "Vui lòng chọn ảnh bìa Tour",
+  "alert_Album_Atleast_1_Image" : "Thư viện ảnh phải có ít nhất 1 ảnh",
+
+  "messageToast_Address_Is_Invalid" : "Không tìm thấy kết quả",
+  "messageToast_Album_More_Max" : "Số ảnh tối đa trong thư viện là 40",
+  "messageToast_Missing_Information" : "Chưa nhập đủ các thông tin cần thiết. Vui lòng kiểm tra lại các thông tin bắt buộc nhập.",
+  "messageToast_Update_Failed" : "Cập nhật thất bại!",
+  "messageToast_Incorect_Format_File" : "Tập tin không đúng định dạng"
+}

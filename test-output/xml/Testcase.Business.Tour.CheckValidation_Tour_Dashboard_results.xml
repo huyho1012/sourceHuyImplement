@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test with chrome"
+           tests="10"
+           failures="3"
+           errors="0"
+<<<<<<< HEAD
+           skipped="0"
+           time="64,880">
+  <properties />
+            <testcase name="TC08_Check_Validate_Name_Tour_Has_Start_Space_On_Popup_CreateTour" time="20,493" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[contains(@data-bind,&apos;value: tv151&apos;)]/following-sibling::div (tried for 20 second(s) with 500 milliseconds interval)"
+              >
+                  <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[contains(@data-bind,'value: tv151')]/following-sibling::div (tried for 20 second(s) with 500 milliseconds interval)
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+  Common.HelperFunction.AbstractPage.waitElementToVisible(AbstractPage.java:551)
+  Project.Business.Tour.TourDashboardPagePO.checkAlertOnTourName(TourDashboardPagePO.java:73)
+  testcase.Business.Tour.CheckValidation_Tour_Dashboard.TC08_Check_Validate_Name_Tour_Has_Start_Space_On_Popup_CreateTour(CheckValidation_Tour_Dashboard.java:233)
+=======
+           skipped="10"
+           time="0.000">
+  <properties />
+            <testcase name="preStepConditionStep" time="0.000" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()=&apos;Quản lý tài khoản&apos;] (tried for 20 second(s) with 500 milliseconds interval)"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[text()='Quản lý tài khoản'] (tried for 20 second(s) with 500 milliseconds interval)
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+  Common.HelperFunction.AbstractPage.waitForElementClickable(AbstractPage.java:561)
+  Project.Business.Business.BusinessOverviewPagePO.clickToAccountManagementButton(BusinessOverviewPagePO.java:55)
+  testcase.Business.Tour.CheckValidation_Tour_Dashboard.preStepConditionStep(CheckValidation_Tour_Dashboard.java:50)
+>>>>>>> ba0d5357e7bfb1137ffd8633a1a78884aa2951d3
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@data-bind,'value: tv151')]/following-sibling::div"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6QLQCIM', ip: '10.0.2.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\F3-TRUC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 707d333b6e9d1021764af1b3145a3885
+*** Element info: {Using=xpath, value=//input[contains(@data-bind,'value: tv151')]/following-sibling::div}
+  jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+  Common.HelperFunction.AbstractPage.waitElementToVisible(AbstractPage.java:551)
+  Project.Business.Tour.TourDashboardPagePO.checkAlertOnTourName(TourDashboardPagePO.java:73)
+  testcase.Business.Tour.CheckValidation_Tour_Dashboard.TC08_Check_Validate_Name_Tour_Has_Start_Space_On_Popup_CreateTour(CheckValidation_Tour_Dashboard.java:233)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+                </failure>
+
+          </testcase>
+            <testcase name="TC10_Check_Validate_Has_Name_Tour_And_Select_Topic" time="20,557" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[contains(@data-bind,&apos;value: tv151&apos;)]/following-sibling::div (tried for 20 second(s) with 500 milliseconds interval)"
+              >
+                  <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[contains(@data-bind,'value: tv151')]/following-sibling::div (tried for 20 second(s) with 500 milliseconds interval)
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+  Common.HelperFunction.AbstractPage.waitElementToVisible(AbstractPage.java:551)
+  Project.Business.Tour.TourDashboardPagePO.checkAlertOnTourName(TourDashboardPagePO.java:73)
+  testcase.Business.Tour.CheckValidation_Tour_Dashboard.TC10_Check_Validate_Has_Name_Tour_And_Select_Topic(CheckValidation_Tour_Dashboard.java:280)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@data-bind,'value: tv151')]/following-sibling::div"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6QLQCIM', ip: '10.0.2.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\F3-TRUC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 707d333b6e9d1021764af1b3145a3885
+*** Element info: {Using=xpath, value=//input[contains(@data-bind,'value: tv151')]/following-sibling::div}
+  jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+  Common.HelperFunction.AbstractPage.waitElementToVisible(AbstractPage.java:551)
+  Project.Business.Tour.TourDashboardPagePO.checkAlertOnTourName(TourDashboardPagePO.java:73)
+  testcase.Business.Tour.CheckValidation_Tour_Dashboard.TC10_Check_Validate_Has_Name_Tour_And_Select_Topic(CheckValidation_Tour_Dashboard.java:280)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+                </failure>
+
+          </testcase>
+            <testcase name="TC07_Check_Validate_Name_Tour_Has_Start_Space_On_Popup_CreateTour" time="20,380" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[contains(@data-bind,&apos;value: tv151&apos;)]/following-sibling::div (tried for 20 second(s) with 500 milliseconds interval)"
+              >
+                  <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[contains(@data-bind,'value: tv151')]/following-sibling::div (tried for 20 second(s) with 500 milliseconds interval)
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+  Common.HelperFunction.AbstractPage.waitElementToVisible(AbstractPage.java:551)
+  Project.Business.Tour.TourDashboardPagePO.checkAlertOnTourName(TourDashboardPagePO.java:73)
+  testcase.Business.Tour.CheckValidation_Tour_Dashboard.TC07_Check_Validate_Name_Tour_Has_Start_Space_On_Popup_CreateTour(CheckValidation_Tour_Dashboard.java:211)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@data-bind,'value: tv151')]/following-sibling::div"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6QLQCIM', ip: '10.0.2.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\F3-TRUC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 707d333b6e9d1021764af1b3145a3885
+*** Element info: {Using=xpath, value=//input[contains(@data-bind,'value: tv151')]/following-sibling::div}
+  jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+  Common.HelperFunction.AbstractPage.waitElementToVisible(AbstractPage.java:551)
+  Project.Business.Tour.TourDashboardPagePO.checkAlertOnTourName(TourDashboardPagePO.java:73)
+  testcase.Business.Tour.CheckValidation_Tour_Dashboard.TC07_Check_Validate_Name_Tour_Has_Start_Space_On_Popup_CreateTour(CheckValidation_Tour_Dashboard.java:211)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Quản lý tài khoản']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '10.0.2.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 08c9102a25295563900c7ad8a1103caf
+*** Element info: {Using=xpath, value=//a[text()='Quản lý tài khoản']}
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+  org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+  org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+  Common.HelperFunction.AbstractPage.waitForElementClickable(AbstractPage.java:561)
+  Project.Business.Business.BusinessOverviewPagePO.clickToAccountManagementButton(BusinessOverviewPagePO.java:55)
+  testcase.Business.Tour.CheckValidation_Tour_Dashboard.preStepConditionStep(CheckValidation_Tour_Dashboard.java:50)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+  org.testng.TestRunner.beforeRun(TestRunner.java:656)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+                </failure>
+
+          </testcase>
+<<<<<<< HEAD
+=======
+  
+            <testcase name="TC04_Check_Validate_Name_Tour_More_Max_On_Popup_CreateTour" time="0.0" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+          <skipped />
+    </testcase>
+            <testcase name="TC01_Check_Validate_Name_Tour_Null_On_Popup_CreateTour" time="0.0" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+          <skipped />
+    </testcase>
+            <testcase name="TC02_Check_Validate_Name_Tour_Less_Min_On_Popup_CreateTour" time="0.0" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+          <skipped />
+    </testcase>
+            <testcase name="TC05_Check_Validate_Name_Tour_Equal_Max_On_Popup_CreateTour" time="0.0" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+          <skipped />
+    </testcase>
+            <testcase name="TC08_Check_Validate_Name_Tour_Has_Start_Space_On_Popup_CreateTour" time="0.0" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+          <skipped />
+    </testcase>
+            <testcase name="TC10_Check_Validate_Has_Name_Tour_And_Select_Topic" time="0.0" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+          <skipped />
+    </testcase>
+            <testcase name="TC03_Check_Validate_Name_Tour_Equal_Min_On_Popup_CreateTour" time="0.0" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+          <skipped />
+    </testcase>
+            <testcase name="TC06_Check_Validate_Name_Tour_5_Char_Space_On_Popup_CreateTour" time="0.0" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+          <skipped />
+    </testcase>
+            <testcase name="TC07_Check_Validate_Name_Tour_Has_Start_Space_On_Popup_CreateTour" time="0.0" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+          <skipped />
+    </testcase>
+            <testcase name="TC09_Check_Validate_When_No_Select_Topic" time="0.0" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard">
+          <skipped />
+    </testcase>
+>>>>>>> ba0d5357e7bfb1137ffd8633a1a78884aa2951d3
+  
+  
+            <testcase name="TC09_Check_Validate_When_No_Select_Topic" time="0,259" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard" />
+                <testcase name="TC04_Check_Validate_Name_Tour_More_Max_On_Popup_CreateTour" time="0,973" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard" />
+                <testcase name="TC05_Check_Validate_Name_Tour_Equal_Max_On_Popup_CreateTour" time="0,903" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard" />
+                <testcase name="TC01_Check_Validate_Name_Tour_Null_On_Popup_CreateTour" time="0,721" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard" />
+                <testcase name="TC03_Check_Validate_Name_Tour_Equal_Min_On_Popup_CreateTour" time="0,150" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard" />
+                <testcase name="TC02_Check_Validate_Name_Tour_Less_Min_On_Popup_CreateTour" time="0,231" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard" />
+                <testcase name="TC06_Check_Validate_Name_Tour_5_Char_Space_On_Popup_CreateTour" time="0,213" classname="testcase.Business.Tour.CheckValidation_Tour_Dashboard" />
+      
+</testsuite>
